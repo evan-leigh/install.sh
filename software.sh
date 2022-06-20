@@ -31,7 +31,8 @@ PKGS=(
   'rofi'
 
 	# Development 
-	'git'
+	'npm'
+	'nodejs'
 	'yarn'
 
 	# Browser 
