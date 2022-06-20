@@ -7,12 +7,17 @@ echo
 PKGS=(
 	# Terminal 
 	'kitty'
-	'curl'
-  'lazygit'
 	'ripgrep'
 	'feh'
   'lsd'
 	'zsh'
+
+  # Building
+  'unzip'
+  'ninja'
+  'cmake'
+  'tree-sitter'
+
 
 	# Functionality 
 	'sxhkd'
@@ -35,6 +40,11 @@ PKGS=(
 	'nodejs'
 	'yarn'
 
+  # Git
+  'git'
+  'github-cli'
+  'lazygit'
+
 	# Browser 
 	'firefox'
 
@@ -45,6 +55,9 @@ PKGS=(
 	# PDF Viewer
 	'zathura'
 	'zathura-pdf-mupdf'
+
+	# Icons 
+  'ttf-nerd-fonts-symbols'
 
 	# Audio
 	'scrot'
