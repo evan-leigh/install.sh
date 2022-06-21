@@ -44,6 +44,12 @@ PKGS=(
 	# PDF Viewer
 	'zathura' 'zathura-pdf-mupdf'
 
+	# Language Servers
+	'lua-language-server' 'bash-language-server'
+
+	# Formatters
+	'stylua' 'shmft'
+
 	# Icons
 	'ttf-nerd-fonts-symbols'
 
