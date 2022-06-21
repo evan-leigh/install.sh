@@ -12,6 +12,10 @@ PKGS=(
   'lsd'
 	'zsh'
 
+  # Tools
+  'xdo'
+  'xdotool'
+
   # Building
   'unzip'
   'ninja'
