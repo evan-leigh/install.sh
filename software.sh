@@ -9,7 +9,7 @@ PKGS=(
 	'kitty' 'imagemagick'
 
 	# Tools
-	'ripgrep' 'feh' 'lsd' 'zsh' 'man'
+	'ripgrep' 'feh' 'lsd' 'zsh' 'man' 'glow'
 
 	# Pip
 	'python-pip'
