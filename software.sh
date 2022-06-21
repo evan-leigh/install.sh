@@ -5,70 +5,50 @@ echo "INSTALLING SOFTWARE"
 echo
 
 PKGS=(
-	# Terminal 
-	'kitty'
-	'ripgrep'
-	'feh'
-  'lsd'
-	'zsh'
+	# Terminal
+	'kitty' 'ripgrep' 'feh' 'lsd' 'zsh'
 
-  # Tools
-  'xdo'
-  'xdotool'
+	# Tools
+	'xdo' 'xdotool' 'p7zip'
 
-  # Building
-  'unzip'
-  'ninja'
-  'cmake'
-  'tree-sitter'
+	# Building
+	'unzip' 'ninja' 'cmake'
 
+	# File parser
+	'tree-sitter'
 
-	# Functionality 
-	'sxhkd'
-	'nemo'
+	# Functionality
+	'sxhkd' 'rofi'
 
-	# Compsitor 
-  'picom'
+	# Compsitor
+	'picom'
 
-	# Notifications 
-  'dunst'
+	# Notifications
+	'dunst'
 
-	# Statusline 
-  'polybar'
+	# Statusline
+	'polybar'
 
-	# Filepicker 
-  'rofi'
+	# Development
+	'npm' 'nodejs' 'yarn'
 
-	# Development 
-	'npm'
-	'nodejs'
-	'yarn'
+	# Git
+	'git' 'lazygit'
 
-  # Git
-  'git'
-  'github-cli'
-  'lazygit'
-
-	# Browser 
+	# Browser
 	'firefox'
 
-	# Media 
-	'scrot'
-	'colorpicker'
+	# Media
+	'scrot' 'colorpicker'
 
 	# PDF Viewer
-	'zathura'
-	'zathura-pdf-mupdf'
+	'zathura' 'zathura-pdf-mupdf'
 
-	# Icons 
-  'ttf-nerd-fonts-symbols'
+	# Icons
+	'ttf-nerd-fonts-symbols'
 
 	# Audio
-	'scrot'
-	'alsa-utils'      # Advanced Linux Sound Architecture (ALSA) Components https://alsa.opensrc.org/
-	'alsa-plugins'    # ALSA plugins
-	'pulseaudio'      # Pulse Audio sound components
-	'pulseaudio-alsa' # ALSA configuration for pulse audio
+	'scrot' 'alsa-utils' 'alsa-plugins' 'pulseaudio' 'pulseaudio-alsa'
 )
 
 for PKG in "${PKGS[@]}"; do
