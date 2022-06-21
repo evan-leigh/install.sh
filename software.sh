@@ -6,16 +6,28 @@ echo
 
 PKGS=(
 	# Terminal
-	'kitty' 'ripgrep' 'feh' 'lsd' 'zsh'
+	'kitty' 'imagemagick'
 
 	# Tools
-	'xdo' 'xdotool' 'p7zip'
+	'ripgrep' 'feh' 'lsd' 'zsh' 'man'
+
+	# Pip
+	'python-pip'
+
+	# Tools
+	'p7zip'
+
+	# Xorg
+	'xdo' 'xdotool' 'xclip' 'xsel'
 
 	# Building
 	'unzip' 'ninja' 'cmake'
 
 	# File parser
 	'tree-sitter'
+
+	# File Explorer
+	'ranger' 'w3m'
 
 	# Functionality
 	'sxhkd' 'rofi'
