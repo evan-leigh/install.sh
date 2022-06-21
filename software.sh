@@ -24,7 +24,7 @@ PKGS=(
 	'picom'
 
 	# Notifications
-	'dunst'
+	'dunst' 'libnotify'
 
 	# Statusline
 	'polybar'
