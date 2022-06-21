@@ -46,6 +46,7 @@ PKGS=(
 
 	# Language Servers
 	'lua-language-server' 'bash-language-server'
+	'vscode-css-languageserver' 'vscode-html-languageserver' 'vscode-json-languageserver'
 
 	# Formatters
 	'stylua' 'shmft'
