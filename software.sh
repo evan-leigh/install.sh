@@ -8,14 +8,11 @@ PKGS=(
 	# Terminal
 	'kitty' 'imagemagick'
 
-	# Tools
-	'ripgrep' 'feh' 'lsd' 'zsh' 'man' 'glow'
+	# Terminal Tools
+	'ripgrep' 'feh' 'lsd' 'zsh' 'man' 'glow' 'p7zip'
 
 	# Pip
 	'python-pip'
-
-	# Tools
-	'p7zip'
 
 	# Xorg
 	'xdo' 'xdotool' 'xclip' 'xsel'
@@ -51,14 +48,13 @@ PKGS=(
 	'firefox'
 
 	# Media
-	'scrot' 'colorpicker'
+	'scrot' 'gpick'
 
 	# PDF Viewer
 	'zathura' 'zathura-pdf-mupdf'
 
 	# Language Servers
 	'lua-language-server' 'bash-language-server'
-	'vscode-css-languageserver' 'vscode-html-languageserver' 'vscode-json-languageserver'
 
 	# Formatters
 	'stylua' 'shmft'
